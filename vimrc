@@ -2,36 +2,37 @@ set rtp+=~/.vim/vundle.git/
 call vundle#rc()
 
 " Bundles:
+" Based
 Bundle "L9"
-Bundle "FuzzyFinder"
 Bundle "TabBar"
-Bundle "jQuery"
-Bundle "javascript.vim"
-Bundle "rails.vim"
-Bundle "ruby-matchit"
-Bundle "git-cheat"
-
+Bundle "FuzzyFinder"
+Bundle "git://github.com/scrooloose/nerdtree.git"
 Bundle "git://git.wincent.com/command-t.git"
 Bundle "git://github.com/msanders/snipmate.vim.git"
-Bundle "git://github.com/scrooloose/nerdtree.git"
 Bundle "git://github.com/tpope/vim-surround.git"
 Bundle "git://github.com/tsaleh/vim-supertab.git"
 Bundle "git://github.com/tsaleh/vim-tcomment.git"
 Bundle "git://github.com/edsono/vim-matchit.git"
-Bundle "git://github.com/tpope/vim-git.git"
 Bundle "git://github.com/tsaleh/vim-align.git"
 Bundle "git://github.com/tpope/vim-repeat.git"
-Bundle "git://github.com/timcharper/textile.vim.git"
-Bundle "git://github.com/tpope/vim-markdown.git"
 Bundle "git://github.com/mileszs/ack.vim.git"
-Bundle "git://github.com/DasIch/vim-vala.git"
-" Git
-" Bundle "git://github.com/c9s/hypergit.vim.git"
-Bundle "git://github.com/motemen/git-vim.git"
 " Colors
 Bundle "vibrantink"
 Bundle "git://github.com/tpope/vim-vividchalk.git"
 Bundle "git://github.com/ciaranm/inkpot.git"
+" Git
+Bundle "git://github.com/motemen/git-vim.git"
+" Bundle "git://github.com/c9s/hypergit.vim.git"
+" Docs
+Bundle "git-cheat"
+" Languages
+Bundle "rails.vim"
+Bundle "ruby-matchit"
+Bundle "jQuery"
+Bundle "javascript.vim"
+Bundle "git://github.com/DasIch/vim-vala.git"
+Bundle "git://github.com/timcharper/textile.vim.git"
+Bundle "git://github.com/tpope/vim-markdown.git"
 
 " " Pathogen. "{{{1
 " " see http://www.adamlowe.me/2009/12/vim-destroys-all-other-rails-editors.html
