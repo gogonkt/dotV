@@ -37,3 +37,9 @@ Ispired:
 ----
 http://gmarik.info/blog/2010/05/02/tracking-dotfiles-with-git
 
+Todo
+---
++ add keymapping notes
++ taglist
++ write a blog post
++ impove git - vim
